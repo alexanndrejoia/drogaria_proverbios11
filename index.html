@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drogaria Provérbios 11</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffebee;
+      color: #2e7d32;
+    }
+    header {
+      background: linear-gradient(to right, #c62828, #b71c1c);
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    header img {
+      max-width: 100px;
+      height: auto;
+    }
+    nav {
+      background-color: #b71c1c;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      background-color: white;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+      border-radius: 12px;
+    }
+    h1, h2 {
+      color: #c62828;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ffcdd2;
+      color: #b71c1c;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    .contact {
+      margin-top: 20px;
+    }
+    .delivery {
+      background-color: #c62828;
+      color: white;
+      padding: 12px;
+      text-align: center;
+      margin-top: 20px;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+    .button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #d32f2f;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 12px;
+    }
+    .button:hover {
+      background-color: #b71c1c;
+    }
+    img.responsive {
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+      border-radius: 12px;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      font-size: 30px;
+      line-height: 60px;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    .whatsapp-float:hover {
+      background-color: #1ebe5d;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+      margin-top: 20px;
+      border-radius: 12px;
+    }
+    @media (max-width: 600px) {
+      header, section, footer {
+        padding: 15px;
+      }
+      h1 {
+        font-size: 1.5em;
+      }
+      h2 {
+        font-size: 1.2em;
+      }
+      .button {
+        width: 100%;
+        text-align: center;
+      }
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+  <script>
+    function showMessage() {
+      alert('Obrigado por visitar a Drogaria Provérbios 11! Estamos prontos para te atender.');
+    }
+  </script>
+</head>
+<body onload="showMessage()">
+  <header>
+    <img src="ok.png" alt="Logo Drogaria Provérbios 11">
+    <h1>Drogaria Provérbios 11</h1>
+    <p>Transforme sua maneira de cuidar da saúde</p>
+  </header>
+
+  <nav>
+    <a href="#">Início</a>
+    <a href="#contato">Contato</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#localizacao">Localização</a>
+  </nav>
+
+  <section>
+    <h2>Bem-vindo!</h2>
+    <p>Você já se sentiu confuso ao olhar para a prateleira de medicamentos? Eu já.</p>
+    <p>Foi então que conheci a Drogaria Provérbios 11.</p>
+    <p><strong>A melhor parte? O atendimento.</strong> Cada cliente é tratado como um amigo. Eles esclarecem todas as suas dúvidas e dão dicas valiosas sobre saúde.</p>
+    <p>Além disso, eles oferecem uma variedade incrível de produtos, desde medicamentos até suplementos naturais, todos de alta qualidade.</p>
+    <p><strong>E o melhor, a entrega é muito rápida.</strong></p>
+    <div class="delivery">
+      Temos entrega grátis em toda região do entorno do Conjunto Vera Cruz!
+    </div>
+  </section>
+
+  <section id="contato" class="contact">
+    <h2>Contato</h2>
+    <p><a class="button" href="https://wa.me/5562991282338">Fale no WhatsApp: (62) 99128-2338</a></p>
+    <p><a class="button" href="https://wa.me/5562981623941">Fale no WhatsApp: (62) 98162-3941</a></p>
+    <p>Aceitamos cartões e PIX: Visa, MasterCard, Elo, Pix.</p>
+    <img src="1.jpg" alt="Entrega Drogaria" class="responsive">
+  </section>
+
+  <section id="localizacao">
+    <h2>Onde estamos</h2>
+    <p>Visite nossa loja física na região do Conjunto Vera Cruz!</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.447366802238!2d-49.31660512492088!3d-16.74050964621127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef2ab45a408df%3A0x94c1850666e926a0!2sConjunto%20Vera%20Cruz%2C%20Goi%C3%A2nia%20-%20GO!5e0!3m2!1spt-BR!2sbr!4v1718640000000!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <a href="https://wa.me/5562991282338" class="whatsapp-float" target="_blank" title="Fale conosco no WhatsApp">💬</a>
+
+  <footer>
+    <p>&copy; 2025 Drogaria Provérbios 11. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
